@@ -33,4 +33,4 @@ Accuracy: 0.977815699659
 Easy to implement and have gives us good visual interpretations. But they are prone to overfitting if we have alot of features.
 
 ## Comparison of various classifiers in a certain dataset:
-![Alt text](/Users/bhavyagulati/Desktop/Screen\ Shot\ 2017-11-15\ at\ 11.33.54\ AM.png?raw=true "Optional Title")
+![Alt text](http://scikit-learn.org/stable/_images/sphx_glr_plot_classifier_comparison_001.png "Optional title")
