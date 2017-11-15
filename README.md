@@ -47,4 +47,4 @@ The core principle of AdaBoost is to fit a sequence of weak learners (i.e., mode
 
 
 
-My results for Car speed classification data for Udacity "Intro to Machine Learning Course":
+My results for Car speed classification data for Udacity "Intro to Machine Learning Course" are attached along with the repository as images.
