@@ -7,6 +7,9 @@ Naive Bayes learners and classifiers can be extremely fast compared to more soph
 
 Particularly here, Naive bayes does work really well with Text. But with phrases which have multiple words which join to form a differrent meaning might not be best implemented by naive bayes.
 ## SVM:
+
+They don't work very well when there is alot of noise in our data ie there is alot of overlap present in out datapoints. This is when Naive bayes outperform SVM. Also, it doesn't work very well in high dimenssional data as its complexity is O(n^3) with n the amount of training instances if we don't tune our parameters very well. 
+
 ### The advantages of support vector machines are:
 Effective in high dimensional spaces.
 Still effective in cases where number of dimensions is greater than the number of samples.
@@ -16,3 +19,6 @@ Versatile: different Kernel functions can be specified for the decision function
 ### The disadvantages of support vector machines include:
 If the number of features is much greater than the number of samples, avoid over-fitting in choosing Kernel functions and regularization term is crucial.
 SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation
+### Parameters: Kernel, C and Gamma:
+When training an SVM with the Radial Basis Function (RBF) kernel, two parameters must be considered: C and gamma. The parameter C, common to all SVM kernels, trades off misclassification of training examples against simplicity of the decision surface. A low C makes the decision surface smooth, while a high C aims at classifying all training examples correctly. gamma defines how much influence a single training example has. The larger gamma is, the closer other examples must be to be affected.
+
