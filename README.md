@@ -37,3 +37,14 @@ Easy to implement and have gives us good visual interpretations. But they are pr
 
 One more good resource to look what to use when could be:
 ![Alt text](http://scikit-learn.org/stable/_static/ml_map.png "Optional title")
+
+## Knearest neighbours:
+Being a non-parametric method, it is often successful in classification situations where the decision boundary is very irregular.
+The principle behind nearest neighbor methods is to find a predefined number of training samples closest in distance to the new point, and predict the label from these. The optimal choice of the value k is highly data-dependent: in general a larger k suppresses the effects of noise, but makes the classification boundaries less distinct.
+
+## Adaboost:
+The core principle of AdaBoost is to fit a sequence of weak learners (i.e., models that are only slightly better than random guessing, such as small decision trees) on repeatedly modified versions of the data. The predictions from all of them are then combined through a weighted majority vote (or sum) to produce the final prediction. The data modifications at each so-called boosting iteration consist of applying weights w_1, w_2, …, w_N to each of the training samples. Initially, those weights are all set to w_i = 1/N, so that the first step simply trains a weak learner on the original data. For each successive iteration, the sample weights are individually modified and the learning algorithm is reapplied to the reweighted data. At a given step, those training examples that were incorrectly predicted by the boosted model induced at the previous step have their weights increased, whereas the weights are decreased for those that were predicted correctly. As iterations proceed, examples that are difficult to predict receive ever-increasing influence.
+
+
+
+My results for Car speed classification data for Udacity "Intro to Machine Learning Course":
