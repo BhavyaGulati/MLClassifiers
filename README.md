@@ -34,3 +34,6 @@ Easy to implement and have gives us good visual interpretations. But they are pr
 
 ## Comparison of various classifiers in a certain dataset:
 ![Alt text](http://scikit-learn.org/stable/_images/sphx_glr_plot_classifier_comparison_001.png "Optional title")
+
+One more good resource to look what to use when could be:
+![Alt text](http://scikit-learn.org/stable/_static/ml_map.png "Optional title")
